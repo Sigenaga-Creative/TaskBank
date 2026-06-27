@@ -115,3 +115,15 @@ https://taskbank-navy.vercel.app/
 
 - カレンダー通知連携（`.ics`ファイル出力でGoogle/Apple/カレンダーに追加）
 - キャラクターによるナビ機能（固定セリフ or AI連携 もしくは両方）
+
+---
+
+ ##  発表当日に使用したPowerPoint
+
+ <img width="1197" height="671" alt="スクリーンショット 2026-06-27 113329" src="https://github.com/user-attachments/assets/84952b19-e9c6-4a04-ac39-dcfbcd9d7471" />
+
+ https://kobedenshi078-my.sharepoint.com/:p:/g/personal/kd1331363_kobedenshi078_onmicrosoft_com/IQCxrixdXGmISqsnXnO9ZziMAbuRnQNw9KSN4H0PN_ceAKI?e=Y4oIld/
+
+ 
+
+
