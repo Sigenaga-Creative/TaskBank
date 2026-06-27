@@ -92,7 +92,7 @@ https://taskbank-navy.vercel.app/
 
 ---
 
-📁 ファイル構成(詳細は非公開)
+## 📁 ファイル構成(詳細は非公開)
 
 ```
 ├── index.html       # 画面のHTML
@@ -109,7 +109,7 @@ https://taskbank-navy.vercel.app/
 
 ---
 
- 🔭 現在開発中...
+ ## 🔭 現在開発中...
 
 - カレンダー通知連携（`.ics`ファイル出力でGoogle/Apple/カレンダーに追加）
 - キャラクターによるナビ機能（固定セリフ or AI連携 もしくは両方）
