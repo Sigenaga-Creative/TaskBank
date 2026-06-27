@@ -44,7 +44,7 @@
 
 | 技術 / API | 用途 |
 |---|---|
-| **Vanilla JavaScript (ES6+)** | フレームワーク無しでロジック全部を実装 |
+| **Vanilla JavaScript (ES6+)** | フレームワーク無しでロジックを実装 |
 | **HTML5 / CSS3** | 画面構成・ダークモード対応のスタイリング |
 | **Web Storage API (`localStorage`)** | ゲストモードでのデータ永続化 |
 | **Google Identity Services (GIS)** | Googleアカウントでのログイン（OAuth 2.0） |
@@ -69,6 +69,7 @@
 実装方法：(iOS 26.5.1での実装)
 
 1. QRコード、もしくはURLからWebページにアプリを開きます。
+https://taskbank-navy.vercel.app/
 2. その他ボタン(...)をクリックし、「共有」を押す。
 3. 少し下にスライドして、ホーム画面に追加を押す。
 4. さらに追加を押すと、ホーム画面にアプリっぽい見た目になって表示される。
