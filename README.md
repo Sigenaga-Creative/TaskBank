@@ -107,7 +107,7 @@
 ├── manifest.json    # PWA設定
 ├── notification.js  # 通知設定(現在調整中)
 ├── sw.js            # 簡易Service Worker
-└── icons/ , sound/  # 画像・効果音
+└── img/ , sound/  # 画像・効果音
 ```
 
 ---
