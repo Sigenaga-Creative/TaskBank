@@ -1,5 +1,3 @@
-<img width="1254" height="1254" alt="TaskBank_アプリQRコード" src="https://github.com/user-attachments/assets/a46f5999-677c-4a22-835a-7d16cdd5aac2" />
-<img width="1254" height="1254" alt="TaskBank_アプリQRコード" src="https://github.com/user-attachments/assets/118f6d65-3892-49ae-83d3-dfdf576d39f8" />
 # TaskBank
 
 タスクをこなすと「お金」が貯まり、貯めたお金で「やりたいこと（Wish）」を叶える——
