@@ -57,7 +57,7 @@
 | **PWA (Progressive Web App)** | ホーム画面に追加してアプリのように使える設計（`manifest.json` + アイコン） |
 | **Vercel** | 静的ホスティング・デプロイ先 |
 
-> サーバーを使わず、フロントエンドだけでGoogleログイン＋クラウド保存を実現しているのがこのアプリの特徴です。バックエンドが無いので、Googleの仕様上「アクセストークンは約1時間で切れる」「リフレッシュトークンは発行されない」という制約があり、長時間アプリを閉じると再ログインが必要になります。今後クラウドを構築しようと思っているので、その時に改善する予定です。
+> サーバーを使わず、フロントエンドだけでGoogleログイン＋クラウド保存を実現しているのがこのアプリの特徴です。デプロイ先にはAWS S3 + CloudFrontを採用し、Cloudflareで独自ドメイン（taskbank.dev）を取得しました。バックエンドが無いので、Googleの仕様上「アクセストークンは約1時間で切れる」「リフレッシュトークンは発行されない」という制約があり、長時間アプリを閉じると再ログインが必要になります。今後LambdaなどでAWSバックエンドを構築し、この制約を改善する予定です。
 
 ---
 
@@ -73,7 +73,7 @@
 
 <img width="200" height="200" alt="TaskBank_アプリQRコード" src="https://github.com/user-attachments/assets/533fb483-7c95-4ea4-9efc-6e6f930d5591" />
 
-1. QRコード、もしくは[URL](https://taskbank-navy.vercel.app/)からWeb上にアプリを開きます。
+1. QRコード、もしくは[URL](https://taskbank.dev)からWeb上にアプリを開きます。
 2. その他ボタン(...)をクリックし、「共有」を押します。
 3. 少し下にスライドして、ホーム画面に追加を押します。
 4. 右上に表示される追加を押すと、ホーム画面にアプリアイコンが表示されます。
@@ -123,7 +123,7 @@
 
  <img width="1197" height="671" alt="スクリーンショット 2026-06-27 113329" src="https://github.com/user-attachments/assets/84952b19-e9c6-4a04-ac39-dcfbcd9d7471" />
 
-[発表で工夫していた点などをメモに記載しています。よければご覧ください！](https://kobedenshi078-my.sharepoint.com/:p:/g/personal/kd1331363_kobedenshi078_onmicrosoft_com/IQC0600tJz_0S5oqvZo-EyGjAQ5uqBxcUM_pZzNPrFxcLNw?e=Odkblg&nav=eyJzSWQiOjI1NiwiY0lkIjoyNDUzODU4MTQzfQ)
+[発表で工夫していた点などをメモに記載しています。よければご覧ください！]([https://kobedenshi078-my.sharepoint.com/:p:/g/personal/kd1331363_kobedenshi078_onmicrosoft_com/IQC0600tJz_0S5oqvZo-EyGjAQ5uqBxcUM_pZzNPrFxcLNw?e=Odkblg&nav=eyJzSWQiOjI1NiwiY0lkIjoyNDUzODU4MTQzfQ](https://kobedenshi078-my.sharepoint.com/:p:/g/personal/kd1331363_kobedenshi078_onmicrosoft_com/IQDSbQaqqplCTafiMcodLiLOAS7PXJc6jP7lBXh2tMfkSuw?e=lflojN&nav=eyJzSWQiOjI1NiwiY0lkIjoyNDUzODU4MTQzfQ))
 
 ※  PC推奨
 
